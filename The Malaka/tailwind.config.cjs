@@ -2,7 +2,17 @@
 module.exports = {
   content: [],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        inter: ['inter'],
+        'dm-sans': ['"DM Sans"']
+      }
+    }
   },
-  plugins: [],
+  plugins: [
+    require('autoprefixer'),
+    require('prettier'),
+    require('@tailwindcss/typography'),
+    require('daisyui')
+  ]
 }
