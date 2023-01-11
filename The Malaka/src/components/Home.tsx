@@ -44,7 +44,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className='z-[2] w-72 md:w-[1000px]'>
+      <div className='z-[2] w-72 md:scale-125 lg:scale-150'>
         <img src={book} alt='' />
       </div>
     </div>
