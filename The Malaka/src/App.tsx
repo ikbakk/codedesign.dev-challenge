@@ -1,3 +1,4 @@
+import For from './components/For'
 import Home from './components/Home'
 import Navbar from './components/Navbar'
 
@@ -6,6 +7,7 @@ function App() {
     <div className='h-screen bg-white'>
       <Navbar />
       <Home />
+      <For />
     </div>
   )
 }

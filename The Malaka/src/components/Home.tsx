@@ -5,7 +5,9 @@ import { IoMdArrowForward } from 'react-icons/io'
 
 function Home() {
   return (
-    <div className='flex h-screen w-full flex-col items-center p-2  pt-20 font-dm-sans md:flex-row md:justify-center md:px-28 xl:pt-32'>
+    <div
+      id='home'
+      className='flex h-screen w-full flex-col items-center p-2 pb-10  pt-12 font-dm-sans md:flex-row md:justify-center md:px-28 xl:pt-32'>
       <div className='bg absolute left-0 top-0 z-[0] h-full w-full bg-dark'></div>
       <div className='absolute right-0 top-0 z-[0] overflow-hidden'>
         <img
