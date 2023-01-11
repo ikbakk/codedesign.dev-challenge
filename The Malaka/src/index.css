@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bg {
+  border-radius: 10px;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 60%, 0% 100%);
+}

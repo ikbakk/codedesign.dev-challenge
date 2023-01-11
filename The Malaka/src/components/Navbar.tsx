@@ -14,7 +14,7 @@ function Navbar() {
     { name: 'Penulis', id: '#penulis' }
   ]
   return (
-    <div className='navbar fixed bg-dark py-4 px-4 font-dm-sans md:py-8 md:px-8 lg:px-16'>
+    <div className='navbar fixed z-20 bg-dark py-4 px-4 font-dm-sans md:px-8 lg:px-16'>
       <div className='navbar-start space-x-2 '>
         <div className='block text-white md:hidden'>
           <TfiMenu size={24} />

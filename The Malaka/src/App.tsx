@@ -1,9 +1,11 @@
+import Home from './components/Home'
 import Navbar from './components/Navbar'
 
 function App() {
   return (
-    <div className='h-screen w-full bg-white'>
+    <div className='h-screen bg-white'>
       <Navbar />
+      <Home />
     </div>
   )
 }

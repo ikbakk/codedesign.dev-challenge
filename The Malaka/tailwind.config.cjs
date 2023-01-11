@@ -14,6 +14,9 @@ module.exports = {
         'dark-muted': '#272D3E/80',
         'white-muted': '#FFFFFF/80',
         base: '#EDFCFD'
+      },
+      clipPath: {
+        polygon1: '0% 0%, 100% 0%, 100% 80%, 0% 100%'
       }
     }
   },
@@ -21,6 +24,7 @@ module.exports = {
     require('autoprefixer'),
     require('prettier'),
     require('@tailwindcss/typography'),
-    require('daisyui')
+    require('daisyui'),
+    require('tailwind-clip-path')
   ]
 }
