@@ -33,7 +33,7 @@ function ForUpper() {
     }
   ]
   return (
-    <div className='h-screen w-full'>
+    <div className='w-full'>
       <div className='flex flex-col items-center justify-center p-4 py-10 pt-10 font-dm-sans md:px-28'>
         <div className='flex flex-col space-y-4 space-x-0 md:flex-row md:items-center md:space-x-10 md:space-y-0'>
           <div className='space-y-4 md:basis-1/2'>

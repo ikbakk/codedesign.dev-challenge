@@ -17,6 +17,9 @@ module.exports = {
       },
       clipPath: {
         polygon1: '0% 0%, 100% 0%, 100% 80%, 0% 100%'
+      },
+      boxShadow: {
+        bottom: '0px 64px 77px -36px rgba(0,186,199,1)'
       }
     }
   },

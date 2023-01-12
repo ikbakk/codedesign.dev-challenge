@@ -2,7 +2,7 @@ import avatar from '../../src/assets/profileimg.png'
 
 function ForLower() {
   return (
-    <div className='h-screen w-full bg-primary font-dm-sans'>
+    <div className='w-full bg-primary font-dm-sans'>
       <div className='flex flex-col justify-center space-y-4 p-4 py-10 md:flex-row md:space-x-10 md:px-28'>
         <div className='basis-1/2 flex-col space-y-5'>
           <p className='text-sm uppercase tracking-widest text-white'>
