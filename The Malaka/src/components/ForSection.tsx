@@ -1,9 +1,11 @@
+import ForLower from './ForLower'
 import ForUpper from './ForUpper'
 
 function ForSection() {
   return (
-    <section>
+    <section id='for' className='py-[2.5rem] '>
       <ForUpper />
+      <ForLower />
     </section>
   )
 }

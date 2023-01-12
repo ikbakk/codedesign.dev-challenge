@@ -7,7 +7,7 @@ interface MenuItems {
 
 function Navbar() {
   const menus: MenuItems[] = [
-    { name: 'Top', id: '#home' },
+    { name: 'Top', id: '#' },
     { name: 'For Everyone', id: '#for' },
     { name: 'Benefit', id: '#benefit' },
     { name: 'Preview', id: '#preview' },
