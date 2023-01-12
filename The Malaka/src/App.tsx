@@ -1,3 +1,4 @@
+import Benefit from './components/Benefit'
 import ForSection from './components/ForSection'
 import Home from './components/Home'
 import Navbar from './components/Navbar'
@@ -8,6 +9,7 @@ function App() {
       <Navbar />
       <Home />
       <ForSection />
+      <Benefit />
     </div>
   )
 }
