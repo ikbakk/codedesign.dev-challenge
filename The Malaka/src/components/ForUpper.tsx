@@ -11,7 +11,7 @@ interface CardText {
 
 type Cards = CardText[]
 
-function For() {
+function ForUpper() {
   const cardText: Cards = [
     {
       src: for1,
@@ -35,7 +35,7 @@ function For() {
   return (
     <div
       id='for'
-      className='flex w-full flex-col items-center justify-center p-4 py-10 pt-10 font-dm-sans md:px-28'>
+      className='flex w-full flex-col items-center justify-center p-4 py-10 pt-10 font-dm-sans md:px-28 md:py-20'>
       <div className='flex flex-col space-y-4 space-x-0 md:flex-row md:items-center md:space-x-10 md:space-y-0'>
         <div className='space-y-4 md:basis-1/2'>
           <p className='text-sm uppercase tracking-widest text-primary'>
@@ -69,4 +69,4 @@ function For() {
   )
 }
 
-export default For
+export default ForUpper
