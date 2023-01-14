@@ -2,6 +2,7 @@ import Benefit from './components/Benefit'
 import ForSection from './components/ForSection'
 import Home from './components/Home'
 import Navbar from './components/Navbar'
+import Preview from './components/Preview'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Home />
       <ForSection />
       <Benefit />
+      <Preview />
     </div>
   )
 }
