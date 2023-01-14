@@ -72,25 +72,46 @@ function TestimonialCarousel() {
     }
   ]
   return (
-    <div className='flex w-full justify-between'>
-      <Slider
-        infinite
-        slidesToShow={3}
-        slidesToScroll={3}
-        prevArrow={<Back />}
-        nextArrow={<Next />}
-        className='w-full'>
-        {testimonials.map((testimonial) => (
-          <div className='px-4' key={testimonial.id}>
-            <TestimonialCard
-              comment={testimonial.comment}
-              name={testimonial.name}
-              occupation={testimonial.occupation}
-            />
-          </div>
-        ))}
-      </Slider>
-    </div>
+    <>
+      <div className='hidden w-full justify-between md:flex'>
+        <Slider
+          infinite
+          slidesToShow={3}
+          slidesToScroll={3}
+          prevArrow={<Back />}
+          nextArrow={<Next />}
+          className='w-full'>
+          {testimonials.map((testimonial) => (
+            <div className='px-4' key={testimonial.id}>
+              <TestimonialCard
+                comment={testimonial.comment}
+                name={testimonial.name}
+                occupation={testimonial.occupation}
+              />
+            </div>
+          ))}
+        </Slider>
+      </div>
+      <div className='flex w-full justify-between md:hidden'>
+        <Slider
+          infinite
+          slidesToShow={1}
+          slidesToScroll={1}
+          prevArrow={<Back />}
+          nextArrow={<Next />}
+          className='w-full'>
+          {testimonials.map((testimonial) => (
+            <div className='px-4' key={testimonial.id}>
+              <TestimonialCard
+                comment={testimonial.comment}
+                name={testimonial.name}
+                occupation={testimonial.occupation}
+              />
+            </div>
+          ))}
+        </Slider>
+      </div>
+    </>
   )
 }
 

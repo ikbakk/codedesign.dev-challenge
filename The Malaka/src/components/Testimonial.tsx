@@ -1,15 +1,14 @@
-import Slider from 'react-slick'
 import TestimonialCarousel from './TestimonialCarousel'
 function Testimonial() {
   return (
     <div className='p-4 py-10 pt-10 font-dm-sans md:px-28'>
       <div className='flex flex-col items-center justify-center rounded-3xl bg-[#EDFCFD] py-16 px-5 '>
         <div className='flex  flex-col space-y-4 space-x-0 md:flex-row md:items-center md:space-x-10 md:space-y-0'>
-          <div className='space-y-4 p-10 md:basis-1/2'>
+          <div className='space-y-4 md:basis-1/2 md:p-10'>
             <p className='text-sm uppercase tracking-widest text-primary'>
               - Testimonial
             </p>
-            <h3 className='text-4xl text-dark'>
+            <h3 className='text-2xl text-dark md:text-4xl'>
               Apa kata orang-orang yang membaca buku ini?
             </h3>
           </div>
@@ -22,7 +21,7 @@ function Testimonial() {
             </p>
           </div>
         </div>
-        <div className='flex h-[80vh] w-full items-center  p-4'>
+        <div className='flex w-full items-center p-4'>
           <TestimonialCarousel />
         </div>
       </div>
