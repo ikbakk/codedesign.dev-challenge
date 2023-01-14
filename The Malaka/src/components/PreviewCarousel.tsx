@@ -7,9 +7,9 @@ import 'slick-carousel/slick/slick-theme.css'
 function PreviewCarousel() {
   const [index, setIndex] = useState<number>(0)
   return (
-    <>
+    <div className='w-64 md:w-full '>
       <Slider
-        className='-mb-20 '
+        className='-mb-10'
         centerMode
         infinite
         afterChange={(current) => {
@@ -51,8 +51,8 @@ function PreviewCarousel() {
           <img src={page} />
         </div>
       </Slider>
-      <p className='pt-5'>Halaman {index + 1} dari 257</p>
-    </>
+      <p>Halaman {index + 1} dari 257</p>
+    </div>
   )
 }
 

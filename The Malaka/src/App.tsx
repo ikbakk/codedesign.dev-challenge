@@ -3,6 +3,7 @@ import ForSection from './components/ForSection'
 import Home from './components/Home'
 import Navbar from './components/Navbar'
 import Preview from './components/Preview'
+import Pricing from './components/Pricing'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <ForSection />
       <Benefit />
       <Preview />
+      <Pricing />
     </div>
   )
 }
