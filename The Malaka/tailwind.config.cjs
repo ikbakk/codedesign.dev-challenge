@@ -3,6 +3,11 @@ module.exports = {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
+      rotate: {
+        'x-10': {
+          transform: 'rotateX(45deg)'
+        }
+      },
       fontFamily: {
         inter: ['inter'],
         'dm-sans': ['"DM Sans"']

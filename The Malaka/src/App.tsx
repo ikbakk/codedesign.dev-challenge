@@ -4,6 +4,7 @@ import Home from './components/Home'
 import Navbar from './components/Navbar'
 import Preview from './components/Preview'
 import Pricing from './components/Pricing'
+import Writer from './components/Writer'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Benefit />
       <Preview />
       <Pricing />
+      <Writer />
     </div>
   )
 }
