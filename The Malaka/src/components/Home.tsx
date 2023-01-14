@@ -8,7 +8,7 @@ function Home() {
     <div
       id='home'
       className='flex h-screen w-full flex-col items-center p-2 pb-10  pt-12 font-dm-sans md:flex-row md:justify-center md:px-28 xl:pt-32'>
-      <div className='bg absolute left-0 top-0 z-[0] h-full w-full bg-dark'></div>
+      <div className='absolute left-0 top-[-2rem] z-[0] h-full w-full -skew-y-6 rounded-br-3xl bg-dark'></div>
       <div className='absolute right-0 top-0 z-[0] overflow-hidden'>
         <img
           className='w-40 translate-x-[1rem] translate-y-[-1rem] md:w-full md:translate-x-[4rem] md:translate-y-[-10rem] '
