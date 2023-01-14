@@ -1,5 +1,6 @@
 import Benefit from './components/Benefit'
 import BuyBook from './components/BuyBook'
+import Footer from './components/Footer'
 import ForSection from './components/ForSection'
 import Home from './components/Home'
 import Navbar from './components/Navbar'
@@ -20,6 +21,7 @@ function App() {
       <Writer />
       <Testimonial />
       <BuyBook />
+      <Footer />
     </div>
   )
 }
