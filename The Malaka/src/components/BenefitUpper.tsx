@@ -9,7 +9,7 @@ function BenefitUpper() {
           <p className='py-2 text-sm uppercase tracking-widest text-primary'>
             - Manfaat buku
           </p>
-          <h3 className='py-2 text-4xl text-dark'>
+          <h3 className='py-2 text-2xl text-dark md:text-4xl'>
             Manfaat yang kamu dapatkan ketika membeli buku Tailwind CSS ini
           </h3>
           <p className='py-2 text-justify leading-relaxed tracking-wider text-dark/80'>

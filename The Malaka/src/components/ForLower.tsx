@@ -8,7 +8,7 @@ function ForLower() {
           <p className='text-sm uppercase tracking-widest text-white'>
             - Buku ini untuk siapa
           </p>
-          <h3 className='text-4xl text-white'>
+          <h3 className='text-2xl text-white md:text-4xl'>
             Kata Pengantar Dari Penulis Buku
           </h3>
           <hr />

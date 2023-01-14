@@ -59,7 +59,7 @@ function Pricing() {
           <p className='rounded-full bg-[#C6F4F8] px-5 py-2 text-sm font-bold uppercase tracking-wide text-primary'>
             Harga buku
           </p>
-          <h2 className='py-2 text-4xl font-semibold text-white'>
+          <h2 className='py-2 text-2xl font-semibold text-white md:text-4xl'>
             Kamu dapat membeli buku fisik atau buku elektronik untuk dibaca di
             perangkat kamu
           </h2>

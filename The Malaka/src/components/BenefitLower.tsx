@@ -15,7 +15,7 @@ function BenefitLower() {
           <p className='py-2 text-sm uppercase tracking-widest text-primary'>
             - Selain itu
           </p>
-          <h3 className='py-2 text-4xl text-dark'>
+          <h3 className='py-2 text-2xl text-dark md:text-4xl'>
             Buku dengan studi kasus nyata, juga komunitas yang ramah
           </h3>
           <p className='py-2 text-justify leading-relaxed tracking-wider text-dark/80'>

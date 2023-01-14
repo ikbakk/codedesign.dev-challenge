@@ -1,4 +1,5 @@
 import Benefit from './components/Benefit'
+import BuyBook from './components/BuyBook'
 import ForSection from './components/ForSection'
 import Home from './components/Home'
 import Navbar from './components/Navbar'
@@ -18,6 +19,7 @@ function App() {
       <Pricing />
       <Writer />
       <Testimonial />
+      <BuyBook />
     </div>
   )
 }

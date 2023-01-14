@@ -40,7 +40,7 @@ function ForUpper() {
             <p className='text-sm uppercase tracking-widest text-primary'>
               - Buku ini untuk siapa
             </p>
-            <h3 className='text-4xl text-dark'>
+            <h3 className='text-2xl text-dark md:text-4xl'>
               Buku yang cocok dibaca untuk front-end dan back-end, bahkan UI
               designer!
             </h3>

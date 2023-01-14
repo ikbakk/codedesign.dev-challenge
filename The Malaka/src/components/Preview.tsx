@@ -9,7 +9,7 @@ function Preview() {
           <p className='rounded-full bg-[#C6F4F8] px-5 py-2 text-sm font-bold uppercase tracking-wide text-primary'>
             Pratinjau
           </p>
-          <h2 className='text-4xl font-semibold text-dark'>
+          <h2 className='text-2xl font-semibold text-dark md:text-4xl'>
             Sebelum membeli, kamu dapat melihat beberapa halaman pratinjau isi
             di dalam buku ini
           </h2>
