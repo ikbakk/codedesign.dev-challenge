@@ -5,9 +5,9 @@ function Writer() {
     <div
       id='penulis'
       className='mt-32 h-screen items-center justify-center p-4 py-10 pt-20 font-dm-sans md:mt-0 md:px-28'>
-      <div className='flex h-full w-full flex-col justify-between md:flex-row'>
+      <div className='relative flex h-full w-full flex-col justify-between md:flex-row'>
         <div className='relative flex h-full w-full items-center justify-center'>
-          <div className='flex h-full w-full scale-50 items-center justify-center'>
+          <div className='relative flex h-full w-full scale-50 items-center justify-center'>
             <div className='z-1 absolute [perspective:1100px]'>
               <div className='h-[628px] w-[522px] rounded-3xl bg-dark [transform:rotateX(-15deg)_rotateY(15deg)]'></div>
             </div>
@@ -17,7 +17,7 @@ function Writer() {
                 src={profile}
               />
             </div>
-            <div className='absolute bottom-20 left-16 z-20 rounded-md bg-primary p-3'>
+            <div className=' absolute top-40 left-16 z-20 rounded-md bg-primary p-3 md:top-[70%] lg:left-[20%]'>
               <h3 className='text-xl font-semibold text-white'>
                 Muhammad Nauval Azhar
               </h3>
