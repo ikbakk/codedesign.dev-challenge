@@ -6,6 +6,7 @@ export interface Categories {
   price: number | string
   description: string
   available: Available[]
+  recommended?: boolean
 }
 
 export type Price = Categories[]

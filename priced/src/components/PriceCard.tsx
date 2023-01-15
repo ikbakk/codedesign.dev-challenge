@@ -4,7 +4,13 @@ import { AiOutlineClose, AiOutlineCheck } from 'react-icons/ai'
 
 type Features = (string | Available)[]
 
-function PriceCard({ name, price, description, available }: Categories) {
+function PriceCard({
+  name,
+  price,
+  description,
+  available,
+  recommended
+}: Categories) {
   const [features, setFeatures] = useState<Features[]>([])
   const allType = [
     'Mobile app access',
@@ -41,9 +47,15 @@ function PriceCard({ name, price, description, available }: Categories) {
       featureArr(enterprise)
     }
   }, [])
-
   return (
-    <div className='h-fit max-w-sm rounded-lg bg-white p-10 font-dm-sans'>
+    <div className='relative h-fit max-w-sm rounded-lg bg-white p-10 font-dm-sans '>
+      {recommended === true ? (
+        <div className='absolute top-0 left-0 z-10 -mt-6 w-full rounded-t-lg bg-[#160E4B] py-2 '>
+          <p className='text-center text-xs font-bold uppercase text-white'>
+            Recommended
+          </p>
+        </div>
+      ) : null}
       <div className='space-y-2'>
         <p className='font-bold text-[#160E4B]'>{name}</p>
         {price === 'Custom' ? (

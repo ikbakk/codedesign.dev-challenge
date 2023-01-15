@@ -26,7 +26,8 @@ function PriceSection() {
       price: 15,
       description:
         'A comprehensive option for businesses with more advanced needs.',
-      available: [true, true, true, true, true, true, true, true, 'notShow']
+      available: [true, true, true, true, true, true, true, true, 'notShow'],
+      recommended: true
     },
     {
       name: 'Enterprise',
@@ -46,6 +47,7 @@ function PriceSection() {
             price={price.price}
             description={price.description}
             available={price.available}
+            recommended={price.recommended}
           />
         ))}
       </div>
