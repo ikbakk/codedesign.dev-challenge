@@ -1,6 +1,4 @@
-# codedesign.dev challenge - kourse
-
-## [Kourse](https://codedesign.dev/challenge/kourse)
+# [Kourse](https://codedesign.dev/challenge/kourse)
 
 The Kourse Hero component is a visually striking and highly functional element of an online course website. It features a clean and modern design, with a large headline on the left side and a featured course card on the right side. Under both the headline and course card, there are two key features that highlight the benefits and features of the online courses offered. The hero component is a key part of the website's overall aesthetic and user experience, and can be used to showcase the benefits and features of the online courses, including their quality, relevance, and convenience.
 
