@@ -4,7 +4,7 @@ The digidaw Hero component is a visually striking and highly functional element 
 
 ## How to Start
 
-To begin the challenge, you will first need to download the design file from the provided link. This will give you access to all of the necessary design elements and assets that you will need to complete the challenge.
+To begin the challenge, you will first need to download the design file from the provided link. This will give you access to all of the necessary design elements and assets that you will need to complete the challenge
 
 Next, take some time to study the design and understand how it works. Look at the layout, color scheme, typography, and overall aesthetic to get a sense of the look and feel of the design.
 
