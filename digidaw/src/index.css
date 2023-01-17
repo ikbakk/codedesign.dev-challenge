@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  .bg {
+    background-color: rgb(37, 99, 235);
+    background-image: radial-gradient(
+        at 25% 100%,
+        rgb(55, 48, 163) 0,
+        transparent 100%
+      ),
+      radial-gradient(at 100% 50%, rgb(125, 211, 252) 0, transparent 83%),
+      radial-gradient(at 31% 23%, rgb(96, 165, 250) 0, transparent 80%);
+  }
+}
