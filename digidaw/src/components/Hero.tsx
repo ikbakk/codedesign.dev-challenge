@@ -5,7 +5,7 @@ import Skeletons from './Skeletons'
 
 const Hero: FC = (): ReactElement => {
   return (
-    <section className='grid grid-cols-1 pt-2 outline md:grid-cols-2'>
+    <section className='grid grid-cols-1 pt-2 md:grid-cols-2'>
       <section className=''>
         <h1 className='py-3 text-4xl font-light text-white md:text-6xl'>
           Experience the power of{' '}
