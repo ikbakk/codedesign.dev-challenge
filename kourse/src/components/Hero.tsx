@@ -1,6 +1,7 @@
 import Card from './Card'
 import HeroContent from './HeroContent'
 import HeroSubContent from './HeroSubContent'
+import cardImg from '../assets/card.png'
 
 function Hero() {
   return (
@@ -12,13 +13,13 @@ function Hero() {
           </div>
           <div className='scale-90 md:basis-1/3 md:scale-100'>
             <div className='flex translate-x-[-2rem] justify-center md:translate-x-0'>
-              <Card imageSrc='../src/assets/card.png' className='z-[3]' />
+              <Card imageSrc={cardImg} className='z-[3]' />
               <Card
-                imageSrc='../src/assets/card.png'
+                imageSrc={cardImg}
                 className='absolute z-[2] translate-x-[3rem] scale-90'
               />
               <Card
-                imageSrc='../src/assets/card.png'
+                imageSrc={cardImg}
                 className='absolute z-[1] translate-x-[6rem] scale-[80%]'
               />
             </div>
