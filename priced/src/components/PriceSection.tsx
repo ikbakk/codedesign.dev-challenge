@@ -39,7 +39,7 @@ function PriceSection() {
   ]
   return (
     <section className='flex w-full justify-center '>
-      <div className='flex flex-col justify-between gap-5 md:flex-row'>
+      <div className='flex flex-col justify-between gap-y-8 md:flex-row md:gap-5'>
         {price.map((price, i) => (
           <PriceCard
             key={i}
