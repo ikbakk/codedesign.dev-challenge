@@ -7,3 +7,4 @@ Repository for finished challenges from [codedesign.dev](https://codedesign.dev/
 - Kourse
 - The malaka
 - Priced
+- Digidaw
